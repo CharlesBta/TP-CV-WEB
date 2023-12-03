@@ -1,0 +1,22 @@
+footer {
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  div {
+    ul {
+      li {
+        list-style: none;
+        display: inline;
+        padding-inline: 1em;
+
+        img {
+          border-bottom: $white solid 1px;
+        }
+      }
+    }
+  }
+}

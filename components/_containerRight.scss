@@ -1,0 +1,23 @@
+.container_Right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url("../Images/image_fond4.jpg");
+  background-size: cover;
+
+  //height: 609px;
+
+  .container_E_int {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+      li {
+        list-style: none;
+        text-align: center;
+      }
+    }
+  }
+}

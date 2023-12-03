@@ -1,0 +1,30 @@
+.container_Left {
+  background-color: $blue;
+
+  h2 {
+    margin: 1em;
+    margin-left: 1em;
+    border-bottom: black solid 3px;
+  }
+
+  .container_Left_int {
+    width: 100%;
+
+    .container_Left_int_ele {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5em;
+      width: 100%;
+      .annee {
+        margin-left: 2em;
+        border-right: black solid 1px;
+        width: 10%;
+      }
+
+      .detail {
+        margin-left: 2em;
+        width: 75%;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.container_section {
+  display: flex;
+  flex-wrap: wrap;
+  //flex-direction: column;
+  justify-content: space-around;
+
+  div {
+    width: 50%;
+  }
+}

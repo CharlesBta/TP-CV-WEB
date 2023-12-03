@@ -1,0 +1,45 @@
+.Accueil {
+  background-image: url("../Images/image_fond3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+
+      li {
+        align-items: center;
+        padding-inline: 1em;
+
+        img {
+          border-bottom: $white solid 3px;
+        }
+      }
+    }
+
+    p {
+      margin: auto;
+    }
+
+    h3 {
+      margin: auto;
+      margin-bottom: 1em;
+      margin-top: 1em;
+    }
+
+    img {
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.container_Contact {
+  background-image: url("../Images/image_fond2.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .block_button {
+    margin: auto;
+    text-align: center;
+
+    .button {
+      margin: auto;
+      color: $white;
+      background-color: black;
+      margin-top: 2em;
+      text-align: center;
+      padding: 1em;
+      width: 50%;
+
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+
+    .button:hover {
+      cursor: pointer;
+    }
+  }
+}
