@@ -24,3 +24,18 @@
   -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   //animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+.container_Right{
+  .container_E_int{
+    li{
+      img{
+        &:hover{
+          transform: rotate(360deg);
+          transition: transform 1s;
+        }
+
+
+      }
+    }
+  }
+}
