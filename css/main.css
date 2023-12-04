@@ -41,6 +41,16 @@ body {
   transition: transform 1s;
 }
 
+footer div p:hover {
+  color: #cfe7ff;
+  cursor: default;
+}
+
+.Accueil .container #me:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+
 .container_section {
   display: flex;
   flex-wrap: wrap;
