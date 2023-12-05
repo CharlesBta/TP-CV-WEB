@@ -117,4 +117,38 @@
       width: 100%;
     }
   }
+  footer {
+    div {
+      p {
+        &:active {
+          color: $blue;
+          cursor: default;
+        }
+      }
+    }
+  }
+
+  .Accueil {
+    .container {
+      #me {
+        &:active {
+          transform: scale(1.2);
+          transition: transform 0.5s;
+        }
+      }
+    }
+  }
+  .container_Right {
+    .container_E_int {
+      li {
+        img {
+          &:active {
+            transform: rotate(360deg);
+            transition: transform 1s;
+          }
+        }
+      }
+    }
+  }
+
 }

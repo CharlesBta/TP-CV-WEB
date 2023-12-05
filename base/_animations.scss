@@ -60,42 +60,6 @@ footer {
   }
 }
 
-@media all and (max-width: 810px) {
-  footer {
-    div {
-      p {
-        &:active {
-          color: $blue;
-          cursor: default;
-        }
-      }
-    }
-  }
-
-  .Accueil{
-    .container{
-      #me{
-        &:active{
-          transform: scale(1.2);
-          transition: transform 0.5s;
-        }
-      }
-    }
-  }
-  .container_Right {
-    .container_E_int {
-      li {
-        img {
-          &:active; {
-            transform: rotate(360deg);
-            transition: transform 1s;
-          }
-        }
-      }
-    }
-  }
-}
-
 
 //si vous lisez jusque là enlevez le commentaire sur le code ci-dessous et vous verrez un petit effet sympa sur le site pour votre anniv;)
 
