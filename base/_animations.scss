@@ -29,7 +29,7 @@
   .container_E_int {
     li {
       img {
-        &:active {
+        &:hover {
           transform: rotate(360deg);
           transition: transform 1s;
         }
@@ -41,7 +41,7 @@
 footer {
   div {
     p {
-      &:active {
+      &:hover {
         color: $blue;
         cursor: default;
       }
@@ -52,7 +52,7 @@ footer {
 .Accueil{
   .container{
     #me{
-      &:active{
+      &:hover{
         transform: scale(1.2);
         transition: transform 0.5s;
       }
@@ -78,6 +78,18 @@ footer {
         &:active{
           transform: scale(1.2);
           transition: transform 0.5s;
+        }
+      }
+    }
+  }
+  .container_Right {
+    .container_E_int {
+      li {
+        img {
+          &:active; {
+            transform: rotate(360deg);
+            transition: transform 1s;
+          }
         }
       }
     }
