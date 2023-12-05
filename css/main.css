@@ -126,6 +126,7 @@ footer div p:hover {
   margin-top: 2em;
   text-align: center;
   padding: 1em;
+  border-radius: 10px;
   width: 50%;
 }
 .container_Contact .block_button .button a {
