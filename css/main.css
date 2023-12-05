@@ -36,21 +36,31 @@ body {
   -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-.container_Right .container_E_int li img:hover {
+.container_Right .container_E_int li img:active {
   transform: rotate(360deg);
   transition: transform 1s;
 }
 
-footer div p:hover {
+footer div p:active {
   color: #cfe7ff;
   cursor: default;
 }
 
-.Accueil .container #me:hover {
+.Accueil .container #me:active {
   transform: scale(1.2);
   transition: transform 0.5s;
 }
 
+@media all and (max-width: 810px) {
+  footer div p:active {
+    color: #cfe7ff;
+    cursor: default;
+  }
+  .Accueil .container #me:active {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+  }
+}
 .container_section {
   display: flex;
   flex-wrap: wrap;
@@ -224,6 +234,7 @@ footer div ul li img {
     position: relative;
     top: 15px;
     left: 20px;
+    width: 85%;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
